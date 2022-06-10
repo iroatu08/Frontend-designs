@@ -11,16 +11,61 @@
         padding:0;
         margin:0;
     }
+ 
     nav{
         width: 100%;
-        padding: 20px;
+        /* padding: 20px; */
         background-color: #f9f9f9;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
     ul{
         display: flex;
         align-items: center;
         justify-content: center;
+        list-style: none;
+        display: flex;
+        font-size: 1.5em;
+
+        
+        
+    }
+    ul a{
+        text-decoration: none;
+        color: white;
+        padding: 0.5em;
+        background-color: rgba(2, 140, 67, 0.411);
+        border-radius: 20px;
+    }
+
+    ul a:hover{
+       background-color: green;
+       transition: all 0.3 ease-in;
+       padding: 10px;
+    }
+
+    ul > li{
+        margin-right: 20px;
+    }
+
+    @media screen and (max-width: 380px) {
+        ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        display: flex;
+        font-size: 1.5em;
+    }
+
+    ul > li{
+        padding:10px;
+        margin-bottom: 20px;
+    }
     }
 </style>
 <body>
@@ -28,14 +73,18 @@
         <div class="container">
             <ul>
                 <li><a href="./404 Not Found/index.html">404 not found</a></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="./404 Not Found/index.html">My team page</a></li>
+                <li><a href="./404 Not Found/index.html">Interior Consultant</a></li>
+                <li><a href="./404 Not Found/index.html">Recipe page</a></li>
+                <li><a href="./404 Not Found/index.html">My Gallery</a></li>
+                <li><a href="./404 Not Found/index.html">Checkout Page</a></li>
+                <li><a href="./404 Not Found/index.html">Edie homepage</a></li>
+                <li><a href="http://">Portfolio</a></li>
+
+
             </ul>
         </div>
     </nav>
-    <h1>This is a page that show all the website i've built using HTML AND CSS</h1>
     
 </body>
 </html>
