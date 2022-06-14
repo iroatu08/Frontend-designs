@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.image img{
+    width: 539px;
+    height: 447px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+   
+    
+}
+.container > .image{
+    padding: 50px;
+}
+.container > .heading{
+    padding: 50px;
+}
+.heading h1{
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #333333;
+
+}
+
+.heading p{
+    font-family: 'Space Mono', monospace;
+    font-weight:400;
+    font-size: 20px;
+    line-height:35px;
+    color: #4f4f4f;
+    /* width: 400px; */
+}
+
+.heading > *{
+    margin-bottom: 40px;
+}
+
+button{
+    padding: 20px;
+    background-color:#333333;
+    border: #333333;
+    
+}
+button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* height: 100vh; */
+    }
+    .container > .image{
+        padding: 0px;
+    }
+
+
+}
